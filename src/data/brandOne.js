@@ -5,7 +5,7 @@ import image4 from "../../public/assets/images/img4.png";
 import image5 from "../../public/assets/images/img5.png";
 import image6 from "../../public/assets/images/img6.png";
 import image7 from "../../public/assets/images/new1.png";
-import image8 from "../../public/assets/images/new2.png";
+// import image8 from "../../public/assets/images/new2.png";
 import image9 from "../../public/assets/images/new3.png";
 import image10 from "../../public/assets/images/new4.png";
 import image11 from "../../public/assets/images/BOMIS.jpg";
@@ -18,7 +18,7 @@ const brandOne = [
   image2,
   image7,
   image3,
-  image8,
+  
   image6,
   image5,
   image4,

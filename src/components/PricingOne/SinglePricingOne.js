@@ -9,7 +9,7 @@ const SinglePricingOne = ({ singlePricing = {} }) => {
   return (
     <Col lg={4}>
       <div className={`pricing-one__single${isPopular ? " popular" : ""}`}>
-        {/* <h3 className="pricing-one__amount">{image}</h3> */}
+        
         <Image
           src={require(`../../../public/assets/images/${imag}`).default.src}
           className="imagestyle"

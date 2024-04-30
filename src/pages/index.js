@@ -16,6 +16,8 @@ import TestimonialsOne from "@/components/TestimonialsOne/TestimonialsOne";
 import Faqq from "@/components/Faq/Faqq";
 import React from "react";
 import Chat from "@/components/Chatbot/Chat";
+
+
 const Home = () => {
   return (
     <Layout pageTitle="Home One">
@@ -31,6 +33,7 @@ const Home = () => {
       <BlogOne totalBlogs={2} isScrollActive />
       
       <CtaOne isScrollActive />
+     
     </Layout>
     
     

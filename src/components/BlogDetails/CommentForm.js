@@ -14,6 +14,7 @@ const CommentForm = () => {
       .sendForm('service_vevdqgf', 'template_bkzoq2u', formRef.current, {
         publicKey: 'CI3v3JTLHKAgc8W80',
       })
+
       .then(
         () => {
           console.log('SUCCESS!');

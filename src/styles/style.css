@@ -24,6 +24,34 @@
 /*
 * 2. common styles
 */
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+  text-align: center; /* Center-align text */
+}
+
+.video-title {
+  margin-bottom: 20px;
+  color: #331C2B;
+ 
+  font-family: "spartan_mbextrabold";
+ 
+}
+
+.video {
+  max-width: 520px; /* Limit maximum width of videos */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto 20px; /* Center the videos horizontally and add bottom margin */
+}
+
+@media (min-width: 768px) {
+  .video {
+    max-width: calc(50% - 20px); /* Adjust maximum width for larger screens */
+  }
+}
+
 
 .faqq{
   width: 100%;

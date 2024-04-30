@@ -1,11 +1,13 @@
 import ctaOne from "@/data/ctaOne";
 import useActive from "@/hooks/useActive";
-import React , { useRef , useState } from "react";
+import React, { useRef, useState } from "react";
 import TextSplit from "../Reuseable/TextSplit";
 import { Col, Row } from "react-bootstrap";
-const { title } = ctaOne;
 import emailjs from '@emailjs/browser';
 import Faqq from "../Faq/Faqq";
+
+const { title } = ctaOne;
+
 const CtaOne = ({ isScrollActive = false }) => {
   const ref = useActive("#contact", isScrollActive);
   const formRef = useRef();
@@ -21,8 +23,8 @@ const CtaOne = ({ isScrollActive = false }) => {
       .then(
         () => {
           console.log('SUCCESS!');
-          setSubmitted(true); // Set submitted to true after successful submission
-          formRef.current.reset(); // Reset form fields after successful submission
+          setSubmitted(true);
+          formRef.current.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -30,42 +32,38 @@ const CtaOne = ({ isScrollActive = false }) => {
       );
   }
 
-
   return (
     <section ref={ref} className="cta-one faq-section" id="contact">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-6">
-          <div >
+      <div className="container">
+        <Row>
+          <Col xs={12} md={6}>
             <div>
-            <h2 className="faqh">FAQ</h2>
-              <Faqq />
+              {/* <h2 className="faqh">FAQ</h2> */}
+              {/* <Faqq /> */}
             </div>
-          </div>
-        </div>
-        <div className="col-md-6">
-          <div >
+          </Col>
+          <Col xs={12} md={6}>
             <div className="card-body">
               <h2 className="card-title faqh">Contact Us</h2>
               <form className="reply-form" ref={formRef} onSubmit={sendEmail}>
-                <div className="row">
-                  <div className="col-lg-6">
+                <Row>
+                  <Col xs={12} lg={6}>
                     <input
                       type="text"
                       placeholder="Your name"
                       name="name"
                       className="reply-form__field form-control"
                     />
-                  </div>
-                  <div className="col-lg-6">
+                  </Col>
+                  <Col xs={12} lg={6}>
                     <input
                       type="email"
                       name="email"
                       placeholder="Enter email"
                       className="reply-form__field form-control"
                     />
-                  </div>
-                  <div className="col-lg-12">
+                  </Col>
+                  <Col xs={12}>
                     <textarea
                       placeholder="Write message"
                       name="message"
@@ -74,16 +72,14 @@ const CtaOne = ({ isScrollActive = false }) => {
                     <button className="reply-form__btn thm-btn" type="submit">
                       Submit
                     </button>
-                  </div>
-                </div>
+                  </Col>
+                </Row>
               </form>
             </div>
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
-    </div>
-  </section>
-  
+    </section>
   );
 };
 

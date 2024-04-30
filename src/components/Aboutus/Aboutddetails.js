@@ -130,14 +130,6 @@ const Aboutddetails = () => {
         />
         <span className="pricing-one__month">MR. Sujeet</span>
 
-        {/* <ul className="pricing-one__list">
-          <p className="pricing-one__list-item">Mr. Swapnil Gupta leads our marketing efforts, crafting viral content campaigns and spearheading performance marketing strategies to drive engagement and brand growth.</p>
-        </ul> */}
-        {/* <a href="https://www.linkedin.com/in/swapnilguptaa" className="thm-btn pricing-one__btn">
-          Contact
-        </a>
-        <span className="pricing-one__tag-line">Marketing</span> */}
-
         
       </div>
     </Col>
@@ -151,13 +143,6 @@ const Aboutddetails = () => {
         />
         <span className="pricing-one__month">MS. Vinesh</span>
 
-        {/* <ul className="pricing-one__list">
-          <p className="pricing-one__list-item">As our Creative Head, Ms. Diksha Singh is the driving force behind our innovative campaigns. She leads the team with her creative vision, ensuring each project exceeds expectations.</p>
-        </ul> */}
-        {/* <a href="https://www.linkedin.com/in/diksha-singh-037a00203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="thm-btn pricing-one__btn">
-          Contact
-        </a>
-        <span className="pricing-one__tag-line">Designing</span> */}
       </div>
     </Col>
         <Col lg={4}>
@@ -170,13 +155,7 @@ const Aboutddetails = () => {
         />
         <span className="pricing-one__month">MR. Kunal</span>
 
-        {/* <ul className="pricing-one__list">
-          <p className="pricing-one__list-item">With his expertise in film making and editing Mr. Prakhar Dixit brings storytelling to life. His excellence in visual storytelling enhances our content, captivating audiences and driving results.</p>
-        </ul> */}
-        {/* <a href="https://www.linkedin.com/in/prakhar-kumar-dixit?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"className="thm-btn pricing-one__btn">
-          Contact
-        </a>
-        <span className="pricing-one__tag-line">Editing</span> */}
+        
       </div>
       
     </Col>
@@ -190,19 +169,13 @@ const Aboutddetails = () => {
         />
         <span className="pricing-one__month">MR. Mohit</span>
 
-        {/* <ul className="pricing-one__list">
-          <p className="pricing-one__list-item">With his expertise in film making and editing Mr. Prakhar Dixit brings storytelling to life. His excellence in visual storytelling enhances our content, captivating audiences and driving results.</p>
-        </ul> */}
-        {/* <a href="https://www.linkedin.com/in/prakhar-kumar-dixit?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"className="thm-btn pricing-one__btn">
-          Contact
-        </a>
-        <span className="pricing-one__tag-line">Editing</span> */}
+       
       </div>
       
     </Col>
         <Col lg={4}>
       <div className="pricing-one__single popular">
-        {/* <h3 className="pricing-one__amount">{image}</h3> */}
+     
         <Image
           src="/assets/images/imgg5.jpg"
           className="imagestyle"
@@ -210,13 +183,7 @@ const Aboutddetails = () => {
         />
         <span className="pricing-one__month">MR. Sujal</span>
 
-        {/* <ul className="pricing-one__list">
-          <p className="pricing-one__list-item">With his expertise in film making and editing Mr. Prakhar Dixit brings storytelling to life. His excellence in visual storytelling enhances our content, captivating audiences and driving results.</p>
-        </ul> */}
-        {/* <a href="https://www.linkedin.com/in/prakhar-kumar-dixit?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"className="thm-btn pricing-one__btn">
-          Contact
-        </a>
-        <span className="pricing-one__tag-line">Editing</span> */}
+       
       </div>
       
     </Col>
