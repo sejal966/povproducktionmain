@@ -40,7 +40,7 @@ const FunFactOne = () => {
         ))}
        
        <div className="video-container">
-  <h1 className="video-title">Past Compaigns</h1>
+  <h1 className="video-title">Past Campaigns</h1>
   <video className="video" loop autoPlay muted>
     <source src="/videooo.mp4" type="video/mp4" />
     Your browser does not support the video tag.
