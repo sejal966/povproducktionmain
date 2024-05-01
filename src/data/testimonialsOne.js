@@ -44,14 +44,14 @@ const testimonialsOne = {
       name: "Himanshu Rai",
       designation: "Munkydunky",
     },
-    {
-      id: 7,
-      image: "mahindra.png",
-      qoute,
-      text: "The ads which they create are highly appreciable.",
-      name: "Rishab Samadhiya",
-      designation: "Royal Mahindra",
-    },
+    // {
+    //   id: 7,
+    //   image: "mahindra.png",
+    //   qoute,
+    //   text: "The ads which they create are highly appreciable.",
+    //   name: "Rishab Samadhiya",
+    //   designation: "Royal Mahindra",
+    // },
     {
       id: 8,
       image: "Stockswala.png",
