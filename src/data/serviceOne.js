@@ -25,7 +25,7 @@ const serviceOne = {
     {
       id: 3,
       icon: "contmar.png",
-      title: "Content marketting",
+      title: "Content Marketing",
       text: "Innovative Ideation Expertise \n Seamless Content Execution \n Timely Social Media Presence. \n ",
       text2: "Read More"
     },
