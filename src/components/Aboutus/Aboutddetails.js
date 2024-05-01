@@ -141,7 +141,7 @@ const Aboutddetails = () => {
           className="imagestyle"
           alt="image"
         />
-        <span className="pricing-one__month">MS. Vinesh</span>
+        <span className="pricing-one__month">MR. Vinesh</span>
 
       </div>
     </Col>
