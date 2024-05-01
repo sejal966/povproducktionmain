@@ -177,7 +177,7 @@ const Aboutddetails = () => {
       <div className="pricing-one__single popular">
      
         <Image
-          src="/assets/images/imgg5.jpg"
+          src="/assets/images/imgg5.JPG"
           className="imagestyle"
           alt="image"
         />
