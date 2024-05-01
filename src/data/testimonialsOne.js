@@ -60,14 +60,14 @@ const testimonialsOne = {
       name: "Yash Parashar",
       designation: "Stockswala",
     },
-    {
-      id: 9,
-      image: "Bhautiki+.png",
-      qoute,
-      text: "POV guys are crazy. They helped us get 70k+ followers on Instagram within 8 months.",
-      name: "Er Ritesh Goel",
-      designation: "Bhautiki",
-    },
+    // {
+    //   id: 9,
+    //   image: "Bhautiki+.png",
+    //   qoute,
+    //   text: "POV guys are crazy. They helped us get 70k+ followers on Instagram within 8 months.",
+    //   name: "Er Ritesh Goel",
+    //   designation: "Bhautiki",
+    // },
     {
       id: 10,
       image: "Pragati.png",
