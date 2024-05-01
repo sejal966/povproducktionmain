@@ -54,7 +54,7 @@ const Aboutddetails = () => {
       <div className="pricing-one__single popular">
         {/* <h3 className="pricing-one__amount">{image}</h3> */}
         <Image
-          src="/assets/images/swapnil.png"
+          src="/assets/images/Swapnil.png"
           className="imagestyle"
           alt="image"
         />
@@ -92,7 +92,7 @@ const Aboutddetails = () => {
       <div className="pricing-one__single popular">
         {/* <h3 className="pricing-one__amount">{image}</h3> */}
         <Image
-          src="/assets/images/prakhar.png"
+          src="/assets/images/Prakhar.png"
           className="imagestyle"
           alt="image"
         />
