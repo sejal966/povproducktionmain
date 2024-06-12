@@ -63,7 +63,7 @@ const Aboutddetails = () => {
         <ul className="pricing-one__list">
           <p className="pricing-one__list-item">Mr. Swapnil Gupta leads our marketing efforts, crafting viral content campaigns and spearheading performance marketing strategies to drive engagement and brand growth.</p>
         </ul>
-        <a href="https://www.linkedin.com/in/swapnilguptaa" className="thm-btn pricing-one__btn">
+        <a href="" className="thm-btn pricing-one__btn">
           Contact
         </a>
         <span className="pricing-one__tag-line">Marketing</span>
