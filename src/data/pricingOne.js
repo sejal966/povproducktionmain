@@ -8,7 +8,7 @@ const pricingOne = {
       name: "Mr. Swapnil Gupta",
       features: "Mr. Swapnil Gupta leads our marketing efforts, crafting viral content campaigns and spearheading performance marketing strategies to drive engagement and brand growth.",
       tagline: "Marketing",
-      link:"https://www.linkedin.com/in/swapnilguptaa"
+      link:""
     },
     {
       id: 2,
